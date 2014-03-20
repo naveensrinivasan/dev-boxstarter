@@ -1,0 +1,57 @@
+cinst IIS-WebServerRole -source windowsfeatures
+cinst IIS-HttpCompressionDynamic -source windowsfeatures
+cinst IIS-ManagementScriptingTools -source windowsfeatures
+cinst IIS-WindowsAuthentication -source windowsfeatures
+cinst IIS-BasicAuthentication -source windowsfeatures
+cinst IIS-ASPNET -source windowsfeatures
+cinst IIS-ASPNET45 -source windowsfeatures
+cinst IIS-ManagementConsole -source windowsfeatures
+ 
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+
+cinst chocolatey
+cinst ChocolateyPackageUpdater 
+cinst ChocolateyGUI 
+cinst PowerShell
+cinst GoogleChrome
+cinst Firefox 
+
+cinst git
+cinst ConEmu
+cinst EthanBrown.ConEmuConfig
+
+cinst vlc
+cinst Gow
+cinst 7zip
+cinst 7zip.commandline
+cinst dropbox 
+cinst ultramon
+cinstm windirstat
+cinst vagrant 
+
+cinst VisualStudio2013Ultimate -InstallArguments "WebTools Win8SDK"
+cinst pal 
+cinst linqpad4 
+cinst KickAssVim 
+cinst NuGet.CommandLine 
+cinst java.jdk 
+cinst ilspy 
+cinst Lein 
+cinst LightTable 
+cinst perfview 
+cinst fiddler4 
+cinst nodejs.install 
+
+cinst sysinternals 
+cinst Gow 
+cinst Cygwin 
+cinst dexpot 
+cinst Everything 
+cinst windbg
+cinst virtualbox 
+cinst VirtualBox.ExtensionPack 
+
+cinst flashplayeractivex
+cinst adobereader
+
