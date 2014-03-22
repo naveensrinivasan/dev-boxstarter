@@ -42,9 +42,6 @@ cinst LightTable
 cinst perfview 
 cinst fiddler4 
 cinst nodejs.install 
-cinst RubyMine
-cinst ruby
-cinst pik
 
 cinst sysinternals 
 cinst Gow 
