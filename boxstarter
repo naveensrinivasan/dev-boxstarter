@@ -13,7 +13,7 @@ Enable-RemoteDesktop
 cinst chocolatey
 cinst ChocolateyPackageUpdater 
 cinst ChocolateyGUI 
-cinst PowerShell
+choco install powershell4
 cinst GoogleChrome
 cinst Firefox 
 
@@ -28,29 +28,24 @@ cinst 7zip.commandline
 cinst dropbox 
 cinst ultramon
 cinstm windirstat
-cinst vagrant 
 
 cinst VisualStudio2013Ultimate -InstallArguments "WebTools Win8SDK"
-cinst pal 
+choco install vs2013.4
 cinst linqpad4 
-cinst KickAssVim 
 cinst NuGet.CommandLine 
 cinst java.jdk 
 cinst ilspy 
 cinst Lein 
-cinst LightTable 
 cinst perfview 
 cinst fiddler4 
+choco install sublimetext3
 cinst nodejs.install 
 
 cinst sysinternals 
 cinst Gow 
-cinst Cygwin 
 cinst dexpot 
 cinst Everything 
 cinst windbg
-cinst virtualbox 
-cinst VirtualBox.ExtensionPack 
 
 cinst flashplayeractivex
 cinst adobereader
